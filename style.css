@@ -27,5 +27,16 @@ body {
     margin-bottom: 70px;
 }
 
+@media screen and (max-width: 414px) {
+    .footer {
+        position: static;
+        width: 414px;
+        margin-left: -15px;
+    }
+    .col-sm-9 {
+        margin-top: 10px;
+    }
+  }
+
 
 
